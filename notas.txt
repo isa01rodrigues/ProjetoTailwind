@@ -1,0 +1,5 @@
+npx tailwindcss -i ./src/input.css -o ./build/assets/css/app.css --watch
+
+o terminal será sempre execultado
+
+bg backgraud
