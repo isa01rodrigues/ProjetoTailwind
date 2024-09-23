@@ -1,5 +1,21 @@
 npx tailwindcss -i ./src/input.css -o ./build/assets/css/app.css --watch
 
+toda vez que fechar o visaul e preciso colocar o codigo para ativar o tailwindcss
 o terminal será sempre execultado
 
 bg backgraud
+
+  <tr class="odd:bg-red-500 even:yellow-500">
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+onde ira trazer cores impar e par
+
+Para colocar uma cor desejada que não esta na paleta do tailwindcss usamos a chaves [#valordecimal]
+e podemos definir cores no arquivo config estrutura
+ extend: {
+      colors:{
+        
+      }
+    },

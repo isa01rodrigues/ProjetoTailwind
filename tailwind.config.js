@@ -8,8 +8,12 @@ module.exports = {
     './build/*.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+    
+    },
   },
   plugins: [],
+
+
 }
 
