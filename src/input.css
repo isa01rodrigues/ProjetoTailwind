@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 /*Podemos colocar nossas proprias classe***/
+.topicos{
+    color: #393c3d;
+  font-family: 'Courier New', Courier, monospace;
+}
