@@ -1,9 +1,13 @@
 Tailwind CSS Setup e Observações:
 Comando para compilar Tailwind CSS:
 
+<<<<<<< HEAD
 Para ativar o Tailwind CSS no seu projeto, use o comando abaixo no terminal:
 css
 Copiar código
+=======
+Para ativar o Tailwind CSS no projeto,
+>>>>>>> cbb97b9ed3ffe08a75c9e46c6f7cd948778266a4
 npx tailwindcss -i ./src/input.css -o ./build/assets/css/app.css --watch
 Observação: Toda vez que o Visual Studio Code for fechado e reaberto, é necessário executar esse comando novamente para que o Tailwind CSS continue monitorando as alterações no projeto.
 Classes de Background (bg) no Tailwind CSS:
@@ -38,4 +42,8 @@ extend: {
 Após essa configuração, você pode usar as novas cores como classes diretamente no HTML, por exemplo:
 html
 Copiar código
+<<<<<<< HEAD
 <div class="bg-customBlue">Texto com fundo azul personalizado</div>
+=======
+<div class="bg-customBlue">Texto com fundo azul personalizado</div>
+>>>>>>> cbb97b9ed3ffe08a75c9e46c6f7cd948778266a4
